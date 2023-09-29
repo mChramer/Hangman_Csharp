@@ -11,12 +11,14 @@ Termin: HT-22
 
 # Hangman
 INTRODUCTION
+
 Background: This project consists of creating a console application representing the Hangman game.
 Why should you do this project? The aim is, on one hand, to put in practice the language elements seen so far in 
 the lessons. On the other, to practice how to handle complexity.
 What should you deliver? You will deliver a platform-independent dotnet 6 console application written in C#.
 
 YOUR TASK 
+
 What needs to be done? 
 Read the problem description. Sketch-up in a piece of paper the flow of the 
 entire application. This way you can get a high-level overview of the application. 
@@ -25,27 +27,36 @@ the user will input data), presentation (how the game will be shown on the
 screen), the game rules (winning and losing conditions), etc. 
 
 How to work? 
+
 To avoid the stress caused by complexity, try to split the application into pieces 
 (methods) that you can solve independently. This way you can focus on one 
 thing at a time.
 
 ASSESSMENT AND FEEDBACK
+
 Assessment will take place according to these criteria
 
 For Godkänt (G) the following requirements must be met:
-● The application must have a list of at least 10 words, from which one 
-random word will be used every time you play.
+
+● The application must have a list of at least 10 words, from which one random word will be used every time you play.
+
 ● The user must be able to see which letters he has already guessed.
+
 ● The user must be able to see how many attempts are left
+
 ● Letters’ cases don’t matter. This means, A and a are equivalent.
 
 For Väl Godkänt (VG) the following requirements must be met:
+
 ● All the requirements for Godkänt.
+
 ● The user must be able to play again if desired
+
 ● The “cool input” feature must be implemented
 
 
 PROJECT DESCRIPTION
+
 The Hangman game consists of guessing a word in 6 attempts.
 On every attempt the player guesses one letter and:
 1- If the letter is in the word, all occurrences of the letter in the word are revealed to the player.
